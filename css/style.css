@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+}
+
+main {
+    max-width: 950px;
+    margin: 0 auto;
+    background: lightblue;
+    min-height: 30vh;
+    padding: 45px 30px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.box {
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 35px;
+    color: darkgreen;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    border-top: red solid 5px;
+    padding-top: 35px;
+}
+
+button {
+    display: block;
+    background-color: darkgreen;
+    color: #fff;
+    margin: 35px auto 0;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.generator a {
+    margin-top: 20px;
+   display: block;
+   text-align: center;
+}
