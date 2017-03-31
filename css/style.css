@@ -10,29 +10,23 @@ main {
     padding: 45px 30px;
 }
 
-header h1 {
+h1, h3 {
     text-align: center;
+}
+
+h1 {
     font-size: 30px;
     margin-bottom: 35px;
 }
 
-.box {
-    text-align: center;
+h2 {
+    font-size: 25px; 
+    margin-bottom: 35px;    
 }
 
-.box h2 {
-    font-size: 35px;
-    font-style: italic;
-    font-weight: 400;
-    margin-bottom: 35px;
-    color: darkgreen;
-}
-
-p {
-    font-size: 30px;
-    text-align: center;
-    border-top: red solid 5px;
-    padding-top: 35px;
+h3 {
+    font-size: 20px;
+    margin: 35px 0;
 }
 
 button {
@@ -44,8 +38,10 @@ button {
     font-size: 25px;
 }
 
-.generator a {
-    margin-top: 20px;
-   display: block;
-   text-align: center;
+input {
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 5px;
 }

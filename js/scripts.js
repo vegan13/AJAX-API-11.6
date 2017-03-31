@@ -6,14 +6,16 @@ $(document).ready(function(){
 
 // funkcje
     // czyszczenie listy wyników po poprzednim wyszukiwaniu
+    // oraz wygenerowanie nowej listy wyników
     function showCountriesList(resp) {
         countriesList.empty();
+        var i = 1;
         resp.forEach(function(item){
-            $('<li>').text(item.name).appendTo(countriesList);
+            $('<li>').text(i++ + ' ' + item.name).appendTo(countriesList);
         });
     }
     
-    // pobranie szukanej wartości od użytkownika
+    // pobranie od użytkownika szukanej wartości
     function searchCountries() {
         var countryName = $('#country-name').val();
         
